@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to top right,#B3E5FC, #29B6F6);
+}
+
+.Authorization h2 {
+    font-family: Times, Times New Roman, serif !important;
+}
+
+main.Authorization {
+    display: flex;
+    justify-content: center;
+}
+
+ main.Authorization > div {
+    margin: 7% 0;
+    width: 430px;
+    padding: 0 2%;
+    background-color: white;
+    text-align: center !important;
+    border: 1px solid black;
+}
+
+.Authorization span {
+    display: block;
+    text-align: left;
+}
+
+.Authorization .button {
+    margin: 0 12% !important;
+}
+
+.Authorization .button .enter {
+    background-color: #039BE5;
+}
+
+.Authorization .button .guest {
+    background-color: #29B6F6;
+}
+
+.Authorization .error {
+    color:#db2269;
+    font-size: .75em;
+  }

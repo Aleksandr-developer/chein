@@ -1,0 +1,38 @@
+body {
+  background: linear-gradient(to top right,#B3E5FC, #29B6F6);
+  margin: 0;
+  height: 100vh;
+}
+
+main.MainPage {
+  position: absolute;
+  border: 1px solid black;
+  width: 790px;
+  height: 381px;
+  top: 22%;
+  left: 24%;
+  background-color: white;
+}
+
+.MainPage a {
+  padding: 18px !important;
+  font-size: 19px;
+}
+
+.MainPage td, th {
+  text-align: center;
+}
+
+.MainPage button {
+  margin: 10px;
+  font-size: 14px !important;
+}
+
+.MainPage .active {
+  background-color: #29B6F6 !important;
+}
+
+.MainPage .container {
+  height: 380px;
+  overflow: auto;
+}

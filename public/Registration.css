@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to top right,#B3E5FC, #29B6F6);
+}
+
+main.Registration {
+    display: flex;
+    justify-content: center;
+}
+
+main.Registration > div {
+    margin-top: 6%;
+    padding: 0;
+    width: 500px;
+    background-color: white;
+    border: 1.5px solid black;
+}
+
+
+.Registration aside {
+    margin: 5% 5%;
+}
+
+.Registration header {
+    background-color: #29B6F6;
+}
+
+.Registration header > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    color: white;
+}
+
+.Registration aside div label {
+    margin: 0;
+}
+
+.Registration span {
+    display: block;
+    text-align: left;
+}
+
+.Registration input[type=text],
+.Registration input[type=password] {
+    width: 100%;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    margin: 8px 10px;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.Registration .inputWithIcon input[type=text], 
+.Registration .inputWithIcon input[type=password] {
+    padding-left: 40px;
+}
+.Registration .inputWithIcon {
+    position: relative;
+    text-align: center;
+}
+
+.Registration .inputWithIcon i {
+    position: absolute;
+    left: 15px;
+    top: 32px;
+    margin: 0;
+    height: 42px;
+    width: 40px;
+    padding: 13px;
+    color: white;
+    background-color: #29B6F6;
+}
+
+.Registration .error {
+    color:#db2269;
+    font-size: 0.75em;
+  }
+
+.Registration .but {
+    margin-top: 20px;
+}
