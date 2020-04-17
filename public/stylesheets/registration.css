@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to top right,#B3E5FC, #29B6F6);
+}
+
+main > div {
+    margin: 7% 0;
+    padding: 0 5% 0 5%;
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+    height: 700px;
+
+}
+
+main .input {
+    width: 260px;
+    height: 30px;
+    margin: 10px;
+}
+
+main input.register-button {
+    margin: 10px 0;
+    height: 30px;
+    width: 100px;
+}
+
+div.success,
+p.success,
+div.error,
+p.error {
+    border: 1px solid #87bf0a;
+    font-size: 0.8em;
+    padding: 15px;
+    color: #87bf0a;
+    border-radius: 2px;
+}
+
+div.error,
+p.error {
+    border-color: #e82c0c;
+    color: #e82c0c;
+}
+
+.error {
+    border-color: #e82c0c;
+}
+

@@ -1,24 +1,25 @@
 
-<%- include ('layout/header.ejs') -%>
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta charset="UTF-8">
+    <title> Главная</title>
+</head>
 
-<header class="element">
-    <h2>ЮФУ</h2>
-</header>
+<body>
 
 <main>
-    <h2>АВТОРИЗАЦИЯ</h2>
-    <div><input class="input" type="text" placeholder="Введите логин"></div>
-    <div><input class="input" type="text" placeholder="Введите пароль"></div>
-    <div><button>ВОЙТИ</button></div>
-    <div><button>ГОСТЬ</button></div>
-    <div><a href="#">Зарегистрироваться</a> <a href="#">Уже есть аккаунт</a></div>
 
+            <div><h2>Главная</h2></div>
+    <% if(!user.id && !user.email) { %>
+    <a href="/auth">ссылка</a>
+        <% } else { %>
+            <p>
+                 <%= user.email %>! <a href="/api/auth/logout">Выход</a>
+            </p>
+        <% } %>
 </main>
 
-<div>
-    <footer class="element">
-        <h2>О разработчике</h2>
-    </footer>
-</div>
+</body>
 
-<%- include ('layout/footer.ejs') -%>
+</html>
